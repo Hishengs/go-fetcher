@@ -1,0 +1,35 @@
+{
+  "name": "go-fetcher",
+  "version": "1.0.0",
+  "description": "A Postman-like API Test Tool",
+  "main": "index.js",
+  "scripts": {
+    "start-front": "webpack-dev-server --colors --config=frontend/build/dev-server.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hishengs/go-fetcher.git"
+  },
+  "author": "Hisheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hishengs/go-fetcher/issues"
+  },
+  "homepage": "https://github.com/Hishengs/go-fetcher#readme",
+  "dependencies": {
+    "electron": "^1.7.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.19.1",
+    "vue-loader": "^13.6.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
